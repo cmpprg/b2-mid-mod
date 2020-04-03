@@ -206,11 +206,28 @@
         "lines": [
           1,
           null,
+          1,
           null
         ]
       },
       "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/helpers/application_helper.rb": {
         "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/controllers/mechanics_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
           1,
           null
         ]
@@ -231,6 +248,6 @@
         ]
       }
     },
-    "timestamp": 1585928902
+    "timestamp": 1585929305
   }
 }
