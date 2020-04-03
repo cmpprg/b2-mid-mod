@@ -215,7 +215,7 @@
           null
         ]
       },
-      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/models/amusment_park.rb": {
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/models/amusement_park.rb": {
         "lines": [
           1,
           null,
@@ -288,6 +288,6 @@
         ]
       }
     },
-    "timestamp": 1585926746
+    "timestamp": 1585927232
   }
 }
