@@ -207,6 +207,7 @@
           1,
           null,
           1,
+          1,
           null,
           1,
           null
@@ -248,6 +249,48 @@
           1,
           1,
           null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/spec/features/mechanics/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
           null,
           null,
           null
@@ -308,6 +351,10 @@
           1,
           2,
           null,
+          null,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -318,8 +365,16 @@
           1,
           null
         ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/models/ride_mechanic.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1585932917
+    "timestamp": 1585934209
   }
 }
