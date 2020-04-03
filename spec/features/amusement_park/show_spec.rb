@@ -17,7 +17,7 @@ RSpec.describe "When I visit an amusement park's show page", type: :feature do
     end
   end
 
-  xit "I see names of all the rides for amusement park listed alphabetically" do
+  it "I see names of all the rides for amusement park listed alphabetically" do
 
   end
 

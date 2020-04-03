@@ -207,6 +207,8 @@
           1,
           null,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -275,11 +277,11 @@
           null
         ]
       },
-      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/controllers/mechanics_controller.rb": {
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/controllers/amusement_parks_controller.rb": {
         "lines": [
           1,
           1,
-          2,
+          1,
           null,
           null
         ]
@@ -288,6 +290,15 @@
         "lines": [
           1,
           1,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/controllers/mechanics_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
           null
         ]
       },
@@ -300,6 +311,6 @@
         ]
       }
     },
-    "timestamp": 1585930131
+    "timestamp": 1585930513
   }
 }
