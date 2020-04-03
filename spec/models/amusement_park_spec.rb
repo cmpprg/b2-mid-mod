@@ -18,5 +18,14 @@ RSpec.describe AmusementPark, type: :model do
       expect(amusement_park.rides_alphabetically[2]).to eql(ride4)
       expect(amusement_park.rides_alphabetically[3]).to eql(ride3)
     end
+
+    it "can average the thrill rating of all rides" do
+      amusement_park = AmusementPark.create(name:"Ryan's Adventures", admission_price: 60)
+      ride1 = amusement_park.rides.create(name:"B", thrill_rating: 9)
+      ride2 = amusement_park.rides.create(name:"A", thrill_rating: 6)
+      ride3 = amusement_park.rides.create(name:"D", thrill_rating: 7)
+
+      expect(amusement_park.average_ride_thrill_rating.round(1)).to eql(7.3)
+    end
   end
 end
