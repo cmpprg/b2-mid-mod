@@ -24,7 +24,7 @@ RSpec.describe "When I visit an amusement park's show page", type: :feature do
 
   it "I see average thrill rating of amusement park's rides" do
     within(".average-thrill-rating") do
-      expect(page).to have_content("Average Thrtil Rating of Rides: 6.7/10")
+      expect(page).to have_content("Average Thrill Rating of Rides: 6.7/10")
     end
   end
 end
