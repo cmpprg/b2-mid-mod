@@ -215,14 +215,35 @@
           null
         ]
       },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/models/amusment_park.rb": {
+        "lines": [
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/spec/models/mechanic_spec.rb": {
         "lines": [
           1,
           null,
           1,
-          0,
-          0,
-          0,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/models/mechanic.rb": {
+        "lines": [
+          1,
           null,
           null
         ]
@@ -232,9 +253,16 @@
           1,
           null,
           1,
-          0,
-          0,
-          0,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/models/ride_mechanic.rb": {
+        "lines": [
+          1,
           null,
           null
         ]
@@ -244,15 +272,22 @@
           1,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/models/ride.rb": {
+        "lines": [
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1585926542
+    "timestamp": 1585926746
   }
 }
