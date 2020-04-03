@@ -4,7 +4,7 @@ RSpec.describe "When I visit an amusement park's show page", type: :feature do
   before(:each) do
     @amusement_park = AmusementPark.create(name:"Ryan's Adventures", admission_price: 60)
     @ride1 = @amusement_park.rides.create(name:"Lightning Racer", thrill_rating: 9)
-    @ride2 = @amusement_park.rides.create(name:"Storm Runner", thrill_rating: 7)
+    @ride2 = @amusement_park.rides.create(name:"Storm Runner", thrill_rating: 6)
     @ride3 = @amusement_park.rides.create(name:"Great Bear, The", thrill_rating: 5)
     visit "/amusement_parks/#{@amusement_park.id}"
   end
@@ -22,7 +22,9 @@ RSpec.describe "When I visit an amusement park's show page", type: :feature do
       expect(page.all(".individual-rides")[2]).to have_content("3. #{@ride2.name}")
   end
 
-  xit "I see average thrill rating of amusement park's rides" do
-
+  it "I see average thrill rating of amusement park's rides" do
+    within(".average-thrill-rating") do
+      expect(page).to have_content("Average Thrtil Rating of Rides: 6.7/10")
+    end
   end
 end
