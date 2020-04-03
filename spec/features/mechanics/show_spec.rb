@@ -32,7 +32,7 @@ RSpec.describe "When I visit a mechanics show page.", type: :feature do
     end
   end
 
-  xit "I can add a ride to their workload" do
+  it "I can add a ride to their workload" do
     within(".add-to-workload") do
       expect(page).to have_content("Add a ride to workload:")
 

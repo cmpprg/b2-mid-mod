@@ -11,3 +11,12 @@
     </section>
   <% end %>
 </section>
+
+<section class="add-to-workload">
+  <p>Add a ride to workload:</p>
+  <%= form_tag "/mechanics/#{@mechanic.id}/rides/create", method: :post do %>
+    <%= label_tag :ride_id, "Ride ID" %>
+    <%= text_field_tag :ride_id %>
+    <%= submit_tag "Submit" %>
+  <% end %>
+</section>

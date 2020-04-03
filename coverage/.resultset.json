@@ -210,6 +210,8 @@
           1,
           null,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -260,23 +262,17 @@
           null,
           1,
           1,
-          1,
+          2,
           null,
-          1,
+          2,
           null,
-          1,
-          1,
-          1,
+          2,
+          2,
+          2,
           null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
+          2,
+          2,
+          2,
           null,
           null,
           1,
@@ -284,11 +280,72 @@
           1,
           1,
           null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
           1,
           1,
           null,
           null,
           null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/spec/models/amusement_park_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           1,
           null,
@@ -303,12 +360,12 @@
           1,
           null,
           1,
-          3,
+          7,
           null,
           null,
           1,
-          3,
-          3,
+          4,
+          4,
           null,
           null
         ]
@@ -317,6 +374,79 @@
         "lines": [
           1,
           1,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/spec/models/mechanic_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/models/mechanic.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/spec/models/ride_mechanic_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/models/ride_mechanic.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/spec/models/ride_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
           null
         ]
       },
@@ -353,28 +483,23 @@
           null,
           null,
           1,
-          1,
+          3,
           null,
           null
         ]
       },
-      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/models/mechanic.rb": {
+      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/controllers/ride_mechanics_controller.rb": {
         "lines": [
           1,
           1,
           1,
-          null
-        ]
-      },
-      "/Users/ryancamp/turing/2module/challenge/b2-mid-mod/app/models/ride_mechanic.rb": {
-        "lines": [
           1,
           1,
-          1,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1585934209
+    "timestamp": 1585935628
   }
 }
