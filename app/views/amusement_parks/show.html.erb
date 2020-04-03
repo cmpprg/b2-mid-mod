@@ -2,3 +2,11 @@
   <h1><%= @park.name %></h1>
   <h2>Admissions: $<%= @park.admission_price %>.00</h2>
 </section>
+
+<section class="rides-list">
+  <% @park.rides_alphabetically.each_with_index do |ride, index| %>
+    <section id="ride-<%= ride.id %>", class="individual-rides">
+      <p><%= index + 1 %>. <%= ride.name %></p>
+    </section>
+  <% end %>
+</section>
